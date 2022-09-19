@@ -17,6 +17,7 @@
     width: 100%;
     height: auto;
   }
+
   
   /*====  VARIABLES ============================ */
   :root {
@@ -140,6 +141,10 @@
   #header.scroll {
     box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.15);
   }
+
+ .text-custom {
+  color: var(--base-color);
+ }
   
   /*====  LOGO ============================ */
   .logo {
@@ -351,6 +356,30 @@
     margin-right: 1.5rem;
   }
   
+  .about-social li a {
+    color: #000;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    font-size: 20px;
+    line-height: 38px;
+    transition: all 0.5s;
+    text-align: center;
+}
+
+.list-inline {  
+  padding-left:0;
+  list-style:none
+}
+.list-inline-item {
+    display:inline-block
+}
+.list-inline-item:not(:last-child){
+  margin-right:.5rem
+}.initialism {
+  font-size:.875em;
+  text-transform:uppercase
+}
   /*====  SERVICES ============================ */
   .cards.grid {
     gap: 5rem;
@@ -377,7 +406,7 @@
     margin-bottom: 0.75rem;
   }
   
-  /*====  TESTIMONIALS ============================ */
+  /*====  TESTIMONIALS ============================ 
   #testimonials {
     background: white;
   }
@@ -427,7 +456,7 @@
     clip-path: circle();
     margin-right: 0.5rem;
   }
-  
+  */
   /* swiper */
   .swiper-slide {
     height: auto;
